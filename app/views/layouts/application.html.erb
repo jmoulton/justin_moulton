@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Moultonjr</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+<title>Moultonjr</title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
 </head>
 <body>
-<div class="navbar navbar-fixed-top">
+<h1 class="ss-icon" Justin Moulton </h1>
 <div class="navbar-inner">
-  <div class="container">
-    <a class="brand" href="#">Justin Moulton</a>
-    <div class="nav-collapse">
-    </div>
+  <a class="brand" href="#">Justin Moulton</a>
+  <div class="nav-collapse">
   </div>
 </div>
-</div>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 <%= yield %>
-
 </body>
 </html>

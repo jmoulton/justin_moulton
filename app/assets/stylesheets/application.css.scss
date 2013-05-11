@@ -1,4 +1,31 @@
 @import "bootstrap";
 @import "flat-ui";
 
-.container
+
+body {
+
+  background-color: #f5f5f5;
+
+}
+
+.container {
+
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+
+  font-family: "gloriola-display-thin-1", "gloriola-display-thin-2", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+
+}
+
+.navbar-inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  padding-top: 10px;
+}
